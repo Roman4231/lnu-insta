@@ -1,0 +1,188 @@
+.header-phone-numbers {
+    display: flex;
+}
+
+.header-phone-numbers-image {
+    margin-right: 5px;
+}
+
+.header {
+    padding: 13px 40px;
+    position: relative;
+    background-color: #122538;
+}
+
+.header-language {
+    margin-left: 20px;
+    display: flex;
+}
+
+.header-language-inactive {
+    color: #fff;
+    font-size: .8125em;
+    margin-right: 5px;
+}
+
+.header-language-active {
+    color: #a6a5a5;
+    font-size: .8125em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.header-phones-i {
+    color: #dde0e3;
+    font-size: .92308em;
+}
+
+.header-upper-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-login {
+    display: flex;
+}
+
+.header-login-image {
+    margin-left: 3px;
+    margin-right: 5px;
+}
+
+.header-login-greeting-text {
+    color: #dde0e3;
+    font-size: .8125em;
+}
+
+.header-login-hyperlink {
+    color: #fff;
+    font-size: .8125em;
+}
+
+.header-upper-box-left {
+    display: flex;
+}
+
+.header-upper-box {
+    display: flex;
+}
+
+.header-menu {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.header-menu-list-item {
+    color: #fff;
+    font-size: .8125em;
+    float: left;
+    margin-right: 10px;
+    display: flex;
+}
+
+.header-menu-list-item-icon {
+    margin-right: 3px;
+}
+
+.header-menu-list-item-link {
+    color: #fff;
+    font-size: 14px;
+}
+
+.header-city-title {
+    font-family: Helvetica, Arial, FreeSans, "Liberation Sans", "Nimbus Sans L", sans-serif;
+    font-size: .84615em;
+    margin-bottom: .2em;
+    color: #fff;
+}
+
+.header-lower-box {
+    justify-content: space-between;
+    display: flex;
+}
+
+.header-lower-box-left {
+    display: flex;
+}
+
+.header-city-selector {
+    display: flex;
+}
+
+.header-city-selector-href {
+    color: #fff;
+    border-bottom: 1px dotted;
+    margin-right: 5px;
+}
+
+.header-search {
+    height: 36px;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.header-search-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+
+.header-search-input-text {
+    box-sizing: border-box;
+    border-right: 2px;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    font-size: 1.30769em;
+    width: 360px;
+    height: 100%;
+    text-indent: .5em;
+    outline: 0;
+}
+
+.header-search-microphone {
+    border-left: 1px solid #cccdce;
+}
+
+.header-city {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-search-submit {
+    color: #fff;
+    font-size: 1.26em;
+    border: 0;
+    border-radius: 4px;
+    background: #00a046;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 36px;
+}
+
+.header-lower-box-right {
+    display: flex;
+}
+
+.header-lower-box-right-text {
+    color: #fff;
+    font-size: 11px;
+}
+
+.header-lower-box-right-balance {
+    text-align: center;
+}
+
+.link-with-dots {
+    border-bottom: 1px dotted;
+}
+
+.header-lower-box-right-element {
+    margin-left: 20px;
+}

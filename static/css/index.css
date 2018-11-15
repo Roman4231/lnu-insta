@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+div, span, button {
+    font-family: Arial, Helvetica, FreeSans, "Liberation Sans", "Nimbus Sans L", sans-serif;
+}
+
+#private-advertise-box {
+    width: 100%;
+    height: 30px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+}
+
+.products-social-networks-container {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-networks{
+    min-width: 342px;
+}
+
+.articles{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+}

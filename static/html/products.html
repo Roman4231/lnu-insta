@@ -1,0 +1,119 @@
+<div class="products-title-container">
+    <span class="products-title">Новинки</span>
+</div>
+<div id="products-items-container" class="products-items-container">
+    <!--<div class="products-item">-->
+        <!--<a href="./" class="products-items-category-href"> <span class="products-items-category-text">Ноутбуки</span>&nbsp;→-->
+        <!--</a>-->
+        <!--<div class="product-item-image-container">-->
+            <!--<img src="https://i1.rozetka.ua/goods/7789326/hp_3qm24ea_images_7789326972.jpg" class="product-item-image"/>-->
+        <!--</div>-->
+        <!--<span class="product-item-name">Ноутбук HP 250 G6 (3QM24EA) Dark Ash</span>-->
+        <!--<div class="product-item-buttons-container">-->
+            <!--<div class="product-item-price-container">-->
+                <!--<span class="product-item-price">17 055</span>-->
+                <!--<span class="product-item-currency">грн</span>-->
+            <!--</div>-->
+            <!--<div class="product-item-buy">-->
+                <!--<img src="../img/shopping-cart-white.png"/>-->
+            <!--</div>-->
+            <!--<div class="product-item-like-container">-->
+                <!--<img src="../img/like-yellow.png"/>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="product-item-feedback-container">-->
+            <!--<img src="../img/message.png" class="product-item-feedback-icon">-->
+            <!--<span class="product-item-feedback-text">Залишити  відгук</span>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+    <!--<div></div>-->
+</div>
+<script>
+    var products = [
+        {
+            category: 'Ноутбуки',
+            imageUrl: 'https://i1.rozetka.ua/goods/7789326/hp_3qm24ea_images_7789326972.jpg',
+            name: 'Ноутбук HP 250 G6 (3QM24EA) Dark Ash',
+            price: '17 055'
+        },
+        {
+            category: 'Смартфони',
+            imageUrl: 'https://i2.rozetka.ua/goods/7310081/copy_xiaomi_redmi_6a_2_16gb_gold_eu_5b968817a9f9b_images_7310081874.jpg',
+            name: 'Xiaomi Redmi 6A 2/16GB Gold',
+            price: '2 999'
+        },
+        {
+            category: 'Планшети',
+            imageUrl: 'https://i1.rozetka.ua/goods/7675299/copy_prestigio_pmt3157_4g_d_cis_5bace56bc4687_images_7675299654.jpg',
+            name: 'Планшет Prestigio MultiPad Grace 3257 4G 16GB Black',
+            price: '2 199'
+        },
+        {
+            category: 'Побутова хімія',
+            imageUrl: 'https://i2.rozetka.ua/goods/7672236/happy_clean_4820198560225_images_7672236432.jpg',
+            name: 'Засіб для миття унітазу Happy Clean Хвоя 1000 мл (4820198560041)',
+            price: '58'
+        },
+        {
+            category: 'Дитячий світ',
+            imageUrl: 'https://i2.rozetka.ua/goods/7323390/zapf_825334_4001167825334_images_7323390516.jpg',
+            name: 'Лялька Zapf My little Baby Born Мила крихітка 32 см (825334)',
+            price: '689'
+        },
+        {
+            category: 'Дім, сад',
+            imageUrl: 'https://i1.rozetka.ua/goods/7670869/md_uc09996_images_7670869218.jpg',
+            name: 'Кошик для білизни МД Сірий (UC09996)',
+            price: '188'
+        },
+        {
+            category: 'Одяг та взуття',
+            imageUrl: 'https://i1.rozetka.ua/goods/6918075/reima_6438429018971_images_6918075546.jpg',
+            name: 'Парка Reima 511274-3600 104 см Малинова (6438429018971)',
+            price: '4 007'
+        },
+        {
+            category: 'Зоотовари',
+            imageUrl: 'https://i1.rozetka.ua/goods/7457407/collar_9702_images_7457407566.jpg',
+            name: 'Очисник Collar NanoClear для скла (9702)',
+            price: '89'
+        }
+    ];
+
+    function createProductItem(item) {
+        return "    <div class=\"products-item\">\n" +
+            "        <a href=\"./\" class=\"products-items-category-href\"> <span class=\"products-items-category-text\">" + item.category + "</span>&nbsp;→\n" +
+            "        </a>\n" +
+            "        <div class=\"product-item-image-container\">\n" +
+            "            <img src=\"" + item.imageUrl + "\" class=\"product-item-image\"/>\n" +
+            "        </div>\n" +
+            "        <span class=\"product-item-name\">"+item.name+"</span>\n" +
+            "        <div class=\"product-item-buttons-container\">\n" +
+            "            <div class=\"product-item-price-container\">\n" +
+            "                <span class=\"product-item-price\">"+item.price+"</span>\n" +
+            "                <span class=\"product-item-currency\">грн</span>\n" +
+            "            </div>\n" +
+            "            <div class=\"product-item-buy\">\n" +
+            "                <img src=\"../img/shopping-cart-white.png\"/>\n" +
+            "            </div>\n" +
+            "            <div class=\"product-item-like-container\">\n" +
+            "                <img src=\"../img/like-yellow.png\"/>\n" +
+            "            </div>\n" +
+            "        </div>\n" +
+            "        <div class=\"product-item-feedback-container\">\n" +
+            "            <img src=\"../img/message.png\" class=\"product-item-feedback-icon\">\n" +
+            "            <span class=\"product-item-feedback-text\">Залишити  відгук</span>\n" +
+            "        </div>\n" +
+            "    </div>";
+    };
+
+    products.forEach(function (item) {
+        $("#products-items-container").append(createProductItem(item));
+    });
+</script>

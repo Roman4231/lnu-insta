@@ -1,0 +1,218 @@
+.main-container {
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container-left-main-btn {
+    background: #00bc52;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 8px 22px;
+}
+
+.main-container-left-main-btn-text {
+    font-size: 18px;
+    color: #fff;
+}
+
+.main-container-left-menu {
+    width: 282px;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px 0 rgba(200, 200, 200, .5);
+}
+
+.main-container-left-menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 20px 6px 15px;
+    color: #3e77aa;
+}
+
+.main-container-left-menu-item-with-border {
+    border-top: 1px solid rgba(200, 200, 200, .5);
+}
+
+.main-container-advertise{
+}
+
+.main-container-advertise-top-menu {
+    display: flex;
+}
+
+.main-container-advertise-top-menu-item {
+    padding: 11px 15px;
+    color: #3e77aa;
+    font-size: 1.07692em;
+    border-top: 4px solid #fff;
+}
+
+.main-container-advertise-top-menu-item:hover {
+    padding: 11px 15px;
+    color: #fb535d;
+    font-size: 1.07692em;
+    border-top: 4px solid #fb535d;
+}
+
+.main-container-advertise-top-menu-item-new {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 11px;
+    font-size: 1.07692em;
+    border-top: 4px solid #fff;
+    color: #3e77aa;
+}
+
+.main-container-advertise-top-menu-item-new:hover {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 11px;
+    font-size: 1.07692em;
+    border-top: 4px solid #fb535d;
+    color: #fb535d;
+}
+
+.main-container-advertise-top-menu-item-new-icon {
+    background: #fb535d;
+    color: #fff;
+    font-size: 8px;
+    line-height: 8px;
+    border-radius: 3px;
+    margin-left: 60px;
+    padding: 1px 2px;
+}
+
+.main-container-advertise-top-menu-item-active {
+    color: #4d4b4b;
+    font-size: 1.07692em;
+    border-top: 4px solid #00bc52;
+}
+
+.main-container-advertise-main-image {
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main-container-advertise-login{
+    margin-bottom: 23px;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    text-align: center;
+    background: url(https://i.rozetka.ua/design/auth-background.png);
+}
+
+.main-container-advertise-login-title{
+    margin-bottom: 18px;
+    font-size: 24px;
+    line-height: 1.29167em;
+    font-weight: 400;
+    color: #221f1f;
+}
+
+.main-container-advertise-login-text{
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: #4d4b4b;
+}
+
+.main-container-advertise-login-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    background: #3e77aa;
+}
+
+.main-container-advertise-login-register{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.main-container-advertise-login-register-href{
+    color: #3e77aa;
+    font-size: 14px;
+}
+
+.main-container-super-deal{
+    background: #fff8e5;
+    padding: 1.30769em;
+    margin-bottom: 1.53846em;
+    width: 300px;
+}
+
+.main-container-super-deal-title{
+    margin: 0 -8px .93333em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container-super-deal-title-text{
+    color: #fb3f4c;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main-container-super-deal-item{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 1.15385em 1.38462em 0;
+    margin-bottom: 1.38462em;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.main-container-super-deal-item-title{
+    text-decoration: none;
+    font-size: 1.15385em;
+    line-height: 1.2em;
+    color: #3e77aa;
+}
+
+.main-container-super-deal-item-text{
+    color: #797878;
+    display: block;
+    font-size: .92308em;
+    line-height: 1.5em;
+}
+
+.main-container-super-deal-item-href-container{
+    display: flex;
+}
+
+.main-container-super-deal-item-href{
+    color: #3e77aa;
+}
+
+.main-container-super-deal-item-href-text{
+    color: #797878;
+    display: block;
+    font-size: .92308em;
+    margin-left: 3px;
+}
+
+.main-container-super-deal-all-deals-container{
+    text-align: right;
+}
+
+.main-container-super-deal-all-deals-text{
+    color: #3e77aa;
+    font-size: 18px;
+}
+
+.main-container-super-deal-all-deals-href{
+    color: #3e77aa;
+    font-size: 1.23077em;
+}
+
+.main-container-left-menu-item-arrow{
+    height: 14px;
+}

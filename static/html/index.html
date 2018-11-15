@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rozetka</title>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/mainContainer.css">
+    <link rel="stylesheet" type="text/css" href="../css/socialNetworks.css">
+    <link rel="stylesheet" type="text/css" href="../css/products.css">
+    <link rel="stylesheet" type="text/css" href="../css/articles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="private-advertise-box">
+    <img src="https://i1.rozetka.ua/owoxads/5/5724.jpg">
+</div>
+<div id="header" class="header"></div>
+<div id="main-container" class="main-container"></div>
+<div class="products-social-networks-container">
+    <div id="products" class="products"></div>
+    <div id="social-networks" class="social-networks"></div>
+</div>
+<div id="articles" class="articles"></div>
+</body>
+<script>
+    $(function () {
+        $("#header").load("header.html");
+        $("#main-container").load("mainContainer.html");
+        $("#products").load("products.html");
+        $("#social-networks").load("socialNetworks.html");
+        $("#articles").load("articles.html");
+    });
+</script>
+</html>

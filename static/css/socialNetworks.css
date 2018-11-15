@@ -1,0 +1,19 @@
+.social-networks-list{
+    padding: 0;
+    list-style: none;
+}
+
+.social-networks-item {
+    text-indent: 0px;
+    margin: 0px;
+    padding: 0px;
+    background: transparent;
+    border-style: none;
+    float: none;
+    line-height: normal;
+    font-size: 1px;
+    vertical-align: baseline;
+    display: inline-block;
+    width: 122px;
+    height: 25px;
+}
